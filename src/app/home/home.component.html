@@ -1,0 +1,67 @@
+<nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+      <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+      <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Compliance</a>
+      <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Vulnerability</a>      
+      <a class="nav-item nav-link" id="nav-profile2-tab" data-toggle="tab" href="#nav-profile2" role="tab" aria-controls="nav-contact" aria-selected="false">Intune Live</a>
+    </div>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="row">
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Top 5 Operating Systems</h5>
+                  <ul class="list-group list-group-flush">
+                      <li class="list-group-item">Windows 10 LTSB <span class="badge badge-secondary float-right">55,000</span></li>
+                      <li class="list-group-item">Windows 10 1803 SAC <span class="badge badge-pill badge-info float-right">70,876</span></li>
+                      <li class="list-group-item">Windows 7 Pro <span class="badge badge-pill badge-success float-right">63,875</span></li>
+                      <li class="list-group-item">Windows 7 Enterprise <span class="badge badge-pill badge-primary float-right">75,005</span></li>
+                    </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Desktop Hardware</h5>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Physical Desktop<span class="badge badge-secondary float-right">55,000</span></li>
+                        <li class="list-group-item">Virtual Desktop<span class="badge badge-pill badge-info float-right">70,876</span></li>
+                        <li class="list-group-item">Laptop<span class="badge badge-pill badge-success float-right">63,875</span></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Server + Printers (LAN + Pesonal)</h5>
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">Servers<span class="badge badge-secondary float-right">55,000</span></li>
+                          <li class="list-group-item">Ricoh Printers<span class="badge badge-pill badge-info float-right">70,876</span></li>
+                          <li class="list-group-item">HP Printer<span class="badge badge-pill badge-success float-right">63,875</span></li>
+                          <li class="list-group-item">Retail Printer<span class="badge badge-pill badge-success float-right">63,875</span></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+          </div>
+        
+    </div>
+    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <app-compliance></app-compliance>
+    </div>
+    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+        <app-vulnerability></app-vulnerability>
+    </div>
+    <div class="tab-pane fade" id="nav-profile2" role="tabpanel" aria-labelledby="nav-profile2-tab">
+      <app-intune></app-intune>
+    </div>
+
+    <app-register></app-register>
+  </div>
+
+
+  
